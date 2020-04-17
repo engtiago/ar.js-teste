@@ -1,27 +1,19 @@
 {
-  "name": "static",
+  "name": "vanilla",
   "version": "1.0.0",
-  "description": "This is a static template with no bundling",
+  "description": "JavaScript example starter project",
   "main": "index.html",
   "scripts": {
-    "start": "serve"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   },
   "keywords": [
-    "template",
-    "codesandbox",
-    "static"
-  ],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-    "serve": "^11.2.0"
-  }
+    "javascript",
+    "starter"
+  ]
 }
